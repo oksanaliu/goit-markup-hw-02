@@ -28,6 +28,25 @@ body {
     color: #2e2f42;
 }
 
+
+
+.contact-list {
+    list-style: none;
+    margin: 0;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
+
 .nav-list {
     list-style: none;
     margin: 0;
@@ -49,23 +68,6 @@ body {
 .contact-info {
     font-style: normal;
 
-}
-
-.contact-list {
-    list-style: none;
-    margin: 0;
-}
-
-.contact-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contact-link:hover,
-.contact-link:focus {
-    color: #404bbf;
 }
 
 /* Стилі для секції героїв */
