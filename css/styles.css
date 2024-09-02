@@ -10,199 +10,198 @@ body {
     /* Стилі для хедера */
 }
 
-.nav {
-    /* Стилі для навігації */
+/* Стилі для навігації */
 
-    .logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
-    .logo-span {
-        color: #2e2f42;
-    }
-
+.logo-span {
+    color: #2e2f42;
+}
 
 
 
 
-    .nav-list {
-        list-style: none;
-        margin: 0;
-    }
 
-    .nav-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-        font-weight: 500;
-    }
+.nav-list {
+    list-style: none;
+    margin: 0;
+}
 
-    .nav-link:hover,
-    .nav-link:focus {
-        color: #404bbf;
-    }
+.nav-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-weight: 500;
+}
 
-    .contact-info {
-        font-style: normal;
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
 
-    }
+.contact-info {
+    font-style: normal;
 
-    .contact-list {
-        list-style: none;
-        margin: 0;
-    }
+}
 
-    .contact-link {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
+.contact-list {
+    list-style: none;
+    margin: 0;
+}
 
-    .contact-link:hover,
-    .contact-link:focus {
-        color: #404bbf;
-    }
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
-    /* Стилі для секції героїв */
-    .section-hero {
-        background-color: #2e2f42;
-    }
+.contact-link:hover,
+.contact-link:focus {
+    color: #404bbf;
+}
 
-    .hero-title {
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #ffffff;
-    }
+/* Стилі для секції героїв */
+.section-hero {
+    background-color: #2e2f42;
+}
 
-    .hero-button {
-        background-color: #4D5AE5;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        cursor: pointer;
-    }
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
 
-    .hero-button:hover,
-    .hero-button:focus {
-        background-color: #404BBF;
-    }
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* Стилі для секції послуг */
+.section-services {
     /* Стилі для секції послуг */
-    .section-services {
-        /* Стилі для секції послуг */
-    }
+}
 
-    .services-title,
-    .service-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
+.services-title,
+.service-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-    .service-description {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+.service-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
-    /* Стилі для секції команди */
-    .section-team {
-        background-color: #F4F4FD;
-    }
+/* Стилі для секції команди */
+.section-team {
+    background-color: #F4F4FD;
+}
 
-    .team-header {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2e2f42;
-    }
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 
-    .team-item {
-        background-color: #FFFFFF;
-    }
+.team-item {
+    background-color: #FFFFFF;
+}
 
-    .team-name {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-    }
+.team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
-    .team-role {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+.team-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
+/* Стилі для секції портфоліо */
+.section-portfolio {
     /* Стилі для секції портфоліо */
-    .section-portfolio {
-        /* Стилі для секції портфоліо */
-    }
+}
 
-    .portfolio-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        color: #2e2f42;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 
-    }
+}
 
-    .portfolio-item {
-        background-color: #FFFFFF;
-    }
+.portfolio-item {
+    background-color: #FFFFFF;
+}
 
-    .portfolio-category {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-    }
+.portfolio-category {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
-    /* Стилі для футера */
-    .footer {
-        background-color: #2e2f42;
-    }
+/* Стилі для футера */
+.footer {
+    background-color: #2e2f42;
+}
 
-    .footer-logo {
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
-    }
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
-    .footer-web {
-        color: #f4f4fd;
-    }
+.footer-web {
+    color: #f4f4fd;
+}
 
-    .footer-text {
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #F4F4FD;
-    }
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
