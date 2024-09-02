@@ -155,7 +155,7 @@ body {
     /* Стилі для секції портфоліо */
 }
 
-.portfolio-title {
+.portfolio-header {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -168,6 +168,17 @@ body {
 
 .portfolio-item {
     background-color: #FFFFFF;
+}
+
+.portfolio-title {
+    font-size: 20px;
+    line-height: 1.12;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500;
+
 }
 
 .portfolio-category {
