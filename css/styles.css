@@ -63,10 +63,21 @@ a {
 }
 
 button {
-    font-family: inherit;
-    color: currentColor;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    font-family: var(--font-family-main);
+    font-weight: var(--font-weight-normal);
+    font-size: var(--font-size-main);
+    line-height: var(--line-height-main);
+    letter-spacing: 0.04em;
+    color: var(--color-bg);
     cursor: pointer;
 }
+
 
 /* #endregion */
 /* #endregion Base */
@@ -76,6 +87,7 @@ button {
     width: 1158px;
     padding: 120px;
     margin: 0 auto;
+    padding: 0 15px;
 
     /* Socials */
     .contact-info {
@@ -84,6 +96,8 @@ button {
     }
 
     .contact-list {
+        display: flex;
+        gap: 40px;
         list-style: none;
         margin: 0;
     }
@@ -102,6 +116,11 @@ button {
 
     /* Buttons */
     .hero-button {
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
         background-color: var(--color-primary);
         font-family: var(--font-family-main);
         font-weight: var(--font-weight-normal);
@@ -117,6 +136,7 @@ button {
         background-color: var(--color-hover);
     }
 
+    /* Card set */
     /* #endregion Common */
 
     /* #region Header */
@@ -124,7 +144,8 @@ button {
 
 
 .header {
-    /* Стилі для хедера */
+    border-bottom: 1px solid #e7e9fc
+        /* Стилі для хедера */
 }
 
 .header-container {
@@ -132,6 +153,7 @@ button {
     padding: 120px;
     align-items: center;
     border-bottom: 110px;
+
 }
 
 .nav {
@@ -156,6 +178,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-primary);
+    margin-right: 76px;
 }
 
 .logo-span {
@@ -179,10 +202,13 @@ button {
 
 /* #region Hero */
 .section-hero {
+    padding: 188px 0;
     background-color: var(--color-secondary);
 }
 
 .hero-title {
+
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -194,11 +220,13 @@ button {
 
 /* #region Services */
 .section-services {
+    padding: 120px 0;
     /* Стилі для секції послуг */
 }
 
 .services-title,
 .service-title {
+    margin-bottom: 8px;
     font-weight: var(--font-weight-normal);
     font-size: 20px;
     line-height: 1.2;
@@ -213,6 +241,7 @@ button {
 
 .service-item {
     display: inline-flex;
+    width: calc((100% - 72px) / 4);
     align-items: center;
     gap: 24px;
 }
@@ -227,10 +256,12 @@ button {
 
 /* #region Team */
 .section-team {
+    padding: 120px 0;
     background-color: #F4F4FD;
 }
 
 .team-header {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -241,6 +272,7 @@ button {
 
 .team-list {
     display: flex;
+    border-radius: 0px 0px 4px 4px;
     align-items: center;
     gap: 24px;
 }
@@ -255,9 +287,12 @@ button {
     line-height: 1.2;
     letter-spacing: var(--letter-spacing-normal);
     color: var(--color-secondary);
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .team-role {
+    text-align: center;
     font-size: var(--font-size-main);
     line-height: var(--line-height-main);
     letter-spacing: var(--letter-spacing-normal);
@@ -267,10 +302,13 @@ button {
 
 /* #region Portfolio */
 .section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
     /* Стилі для секції портфоліо */
 }
 
 .portfolio-header {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -282,16 +320,20 @@ button {
 
 .portfolio-list {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
     align-items: center;
     gap: 24px;
 }
 
 .portfolio-item {
+    width: calc((100% - 48px) / 3);
     background-color: var(--color-bg);
 
 }
 
 .portfolio-title {
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -313,10 +355,13 @@ button {
 
 /* #region Footer */
 .footer {
+    padding: 100px 0;
     background-color: var(--color-footer-bg);
 }
 
 .footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: var(--font-family-logo);
     font-weight: 700;
     font-size: 18px;
